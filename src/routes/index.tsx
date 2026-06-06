@@ -140,15 +140,15 @@ const faqs = [
   },
   {
     q: "Inventário impede a venda do imóvel?",
-    a: "Cada imóvel possui uma situação única. Nossa equipe analisa cada caso para encontrar a solução jurídica mais segura e viável.",
+    a: "Não necessariamente. É possível realizar a venda por meio de alvará judicial no decorrer do processo ou formalizar a cessão de direitos hereditários, desde que haja acordo entre os herdeiros.",
   },
   {
     q: "Posso financiar um imóvel irregular?",
-    a: "Cada imóvel possui uma situação única. Nossa equipe analisa cada caso para encontrar a solução jurídica mais segura e viável.",
+    a: "A maioria das instituições financeiras exige a matrícula atualizada e a construção averbada para liberar o crédito. Nosso papel é acelerar essa regularização para viabilizar o financiamento.",
   },
   {
     q: "Quem paga os custos da regularização?",
-    a: "Cada imóvel possui uma situação única. Nossa equipe analisa cada caso para encontrar a solução jurídica mais segura e viável.",
+    a: "Geralmente os custos cartoriais, de impostos e honorários são de responsabilidade do proprietário ou vendedor, mas isso pode ser livremente negociado entre as partes no contrato de compra e venda.",
   },
 ];
 
