@@ -38,7 +38,6 @@ function Logo({ className = "" }: { className?: string }) {
 const problems = [
   "Imóvel parado por problema documental",
   "Negociação que não avança",
-  "Cliente desmotivado",
   "Comissão travada",
   "Processo que parece não ter fim",
 ];
