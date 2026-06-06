@@ -38,7 +38,6 @@ function Logo({ className = "" }: { className?: string }) {
 const problems = [
   "Imóvel parado por problema documental",
   "Negociação que não avança",
-  "Cliente desmotivado",
   "Comissão travada",
   "Processo que parece não ter fim",
 ];
@@ -271,11 +270,11 @@ function Index() {
             <p className="mb-6 mt-12 text-sm uppercase tracking-wider text-muted-foreground">
               Casos que ajudamos a resolver:
             </p>
-            <ul className="grid gap-3 sm:grid-cols-2">
+            <ul className="grid gap-px border border-border bg-border sm:grid-cols-2">
               {casesHelped.map((c) => (
-                <li key={c} className="flex items-start gap-3 text-sm leading-relaxed">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-accent" />
-                  <span>{c}</span>
+                <li key={c} className="flex items-start gap-3 bg-background p-5">
+                  <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent" />
+                  <span className="text-foreground">{c}</span>
                 </li>
               ))}
             </ul>
