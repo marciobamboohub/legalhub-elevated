@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Regularização jurídica completa de imóveis: inventário, escritura, matrícula e usucapião. +2.000 imóveis regularizados e 25 anos de experiência." },
       { name: "author", content: "LEGALHUB" },
       { property: "og:title", content: "LEGALHUB — Soluções Jurídicas e Regularização" },
-      { property: "og:description", content: "Seu imóvel pronto para vender. Regularização jurídica completa com segurança e agilidade." },
+      { property: "og:description", content: "Regularização jurídica completa de imóveis: inventário, escritura, matrícula e usucapião. +2.000 imóveis regularizados e 25 anos de experiência." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "LEGALHUB — Soluções Jurídicas e Regularização" },
+      { name: "twitter:description", content: "Regularização jurídica completa de imóveis: inventário, escritura, matrícula e usucapião. +2.000 imóveis regularizados e 25 anos de experiência." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/59fdcf0b-b0b7-4b6e-8477-0a5691f47939/id-preview-219bec70--54693275-981d-4b27-b35a-17b7fb3d8bed.lovable.app-1780757886951.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/59fdcf0b-b0b7-4b6e-8477-0a5691f47939/id-preview-219bec70--54693275-981d-4b27-b35a-17b7fb3d8bed.lovable.app-1780757886951.png" },
     ],
     links: [
       {
