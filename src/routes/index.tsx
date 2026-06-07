@@ -344,7 +344,9 @@ function Index() {
             ))}
             <li className="pt-4">
               <a
-                href="#contato"
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 border border-accent bg-accent px-7 py-3.5 text-sm font-medium uppercase tracking-wide text-accent-foreground transition-colors hover:bg-transparent hover:text-accent"
               >
                 Falar com Especialista <ArrowRight className="h-4 w-4" />
