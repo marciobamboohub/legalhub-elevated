@@ -194,7 +194,9 @@ function Index() {
             <a href="#faq" className="transition-colors hover:text-foreground">FAQ</a>
           </nav>
           <a
-            href="#contato"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden border border-primary px-5 py-2.5 text-xs font-medium uppercase tracking-wider text-primary transition-colors hover:bg-primary hover:text-primary-foreground sm:inline-block"
           >
             Falar com Especialista
