@@ -178,6 +178,9 @@ function Index() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    const message = `Olá! Meu nome é ${form.nome}. Meu e-mail é ${form.email}. Gostaria de falar sobre: ${form.descricao}`;
+    const url = `https://wa.me/5511992619722?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank", "noopener,noreferrer");
     setSubmitted(true);
   };
 
