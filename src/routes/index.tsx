@@ -152,18 +152,20 @@ const faqs = [
   },
 ];
 
+const WHATSAPP_URL = "https://wa.me/5511992619722";
+
 function CtaButton({ children, variant = "primary" }: { children: React.ReactNode; variant?: "primary" | "outline" }) {
   const base =
     "inline-flex items-center gap-2 px-7 py-3.5 text-sm font-medium tracking-wide uppercase transition-all duration-300";
   if (variant === "outline") {
     return (
-      <a href="#contato" className={`${base} border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground`}>
+      <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className={`${base} border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground`}>
         {children} <ArrowRight className="h-4 w-4" />
       </a>
     );
   }
   return (
-    <a href="#contato" className={`${base} bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm`}>
+    <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className={`${base} bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm`}>
       {children} <ArrowRight className="h-4 w-4" />
     </a>
   );
