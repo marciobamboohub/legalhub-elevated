@@ -14,6 +14,8 @@ import {
   ArrowRight,
 } from "lucide-react";
 
+import heroImage from "@/assets/hero-key-contract.jpg.asset.json";
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -240,11 +242,12 @@ function Index() {
             <div className="absolute -inset-4 bg-accent/10 blur-3xl" aria-hidden />
             <div className="relative aspect-[4/5] w-full overflow-hidden border border-border bg-secondary/10">
               <img
-                src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?w=900&q=80"
-                alt="Edifício corporativo"
-                className="h-full w-full object-cover grayscale"
+                src={heroImage.url}
+                alt="Chave de imóvel sobre contrato assinado"
+                className="h-full w-full object-cover object-center"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/50 via-primary/10 to-transparent" />
+              <div className="absolute inset-0 ring-1 ring-inset ring-accent/20" />
             </div>
           </div>
         </div>
