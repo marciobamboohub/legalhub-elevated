@@ -217,7 +217,7 @@ function Index() {
             <h1 className="text-5xl font-medium leading-[1.05] tracking-tight text-primary md:text-6xl lg:text-7xl">
               Seu Imóvel pronto
               <br />
-              <span className="italic text-secondary">para vender</span>
+              <span className="italic text-accent">para vender</span>
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground">
               Regularização jurídica completa, com foco em viabilizar negociações com segurança e agilidade.
@@ -258,7 +258,7 @@ function Index() {
             <h2 className="text-4xl font-medium leading-tight text-primary md:text-5xl">
               O problema não é o imóvel.
               <br />
-              <span className="italic text-secondary">É a falta de solução especializada.</span>
+              <span className="italic text-accent">É a falta de solução especializada.</span>
             </h2>
           </div>
           <div className="lg:col-span-7">
@@ -295,7 +295,7 @@ function Index() {
           <div className="mx-auto max-w-3xl text-center">
             <p className="mb-4 text-xs uppercase tracking-[0.25em] text-accent">Áreas de Atuação</p>
             <h2 className="text-4xl font-medium leading-tight text-primary md:text-5xl">
-              Porque muitos imóveis <span className="italic">ficam travados</span>
+              Porque muitos imóveis <span className="italic text-accent">ficam travados</span>
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
               Pendências documentais, processos familiares e registros desatualizados podem impedir vendas, financiamentos e negociações por anos.
@@ -402,7 +402,7 @@ function Index() {
           <div className="mx-auto max-w-3xl text-center">
             <p className="mb-4 text-xs uppercase tracking-[0.25em] text-accent">Depoimentos</p>
             <h2 className="text-4xl font-medium leading-tight text-primary md:text-5xl">
-              Conheça alguns casos que <span className="italic">ajudamos a resolver</span>
+              Conheça alguns casos que <span className="italic text-accent">ajudamos a resolver</span>
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
               Inventário, escritura, matrícula e regularização documental conduzidos com clareza e segurança.
@@ -432,7 +432,7 @@ function Index() {
           <div className="lg:col-span-4">
             <p className="mb-4 text-xs uppercase tracking-[0.25em] text-accent">FAQ</p>
             <h2 className="text-4xl font-medium leading-tight text-primary md:text-5xl">
-              Perguntas que <span className="italic">mais recebemos</span>
+              Perguntas que <span className="italic text-accent">mais recebemos</span>
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">
               Cada imóvel possui uma situação única. Nossa equipe analisa cada caso para encontrar a solução jurídica mais segura e viável.
